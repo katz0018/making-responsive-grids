@@ -17,31 +17,14 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
+.grid {
+  overflow: hidden;
 }
 
-img-flex {
-  display: block;
-  width: 100%;
+.unit {
+  float: left;
 }
 
 .xs-1 {
   width: 100%;
-}
-
-@@media only screen and (min-width: 25em) {
-  .s-1 {
-    width: 100%;
-  }
-}
-
-@@media only screen and (min-width: 38em) {
-  .m-1 {
-    width: 100%;
-  }
-
-  .m-1-2 {
-    width: 50%;
-  }
 }
